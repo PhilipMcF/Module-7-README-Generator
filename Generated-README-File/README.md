@@ -1,4 +1,5 @@
 # test
+  ![License Badge](https://img.shields.io/badge/license-MPL%202.0-black)
 
   ## Description
   test
@@ -25,7 +26,9 @@
 
   ## Questions
   For any and all questions, please contact me here:
-  - GitHub: https://github.com/PhilipMcF
-  - Email: philipsm1998@gmail.com
+  - GitHub: https://github.com/test
+  - Email: test
 
   ## License
+  [This project is licensed under the MPL 2.0 license.](#https://www.mozilla.org/en-US/MPL/2.0/)
+

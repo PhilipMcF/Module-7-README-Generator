@@ -74,7 +74,7 @@ function init() {
                 type: "list",
                 message: questions[8],
                 name: "license",
-                choices: ["MIT", "GNU GPLv3", "Apache 2.0", "ISC", "None"]
+                choices: ["MIT", "GNU GPLv3", "Apache 2.0", "MPL 2.0", "None"]
             }
         ])
         .then((response) => {
