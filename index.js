@@ -22,7 +22,45 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    console.log("Welcome to the README Generator! Please answer the following questions to generate your README file...");
+    inquirer
+        .prompt([
+            {
+                type: "input",
+                message: questions[0],
+                name: "title",
+            },
+            {
+                type: "input",
+                message: questions[1],
+                name: "description",
+            },
+            {
+                type: "input",
+                message: questions[2],
+                name: "installInstructions"
+            },
+            {
+                type: "input",
+                message: questions[3],
+                name: "usageInformation"
+            },
+            {
+                type: "input",
+                message: questions[4],
+                name: "contributionGuidelines"
+            },
+            {
+                type: "input",
+                message: questions[5],
+                name: "testInstructions"
+            }
+        ])
+        .then((response) => {
+            
+        });
+}
 
 // Function call to initialize app
 init();
