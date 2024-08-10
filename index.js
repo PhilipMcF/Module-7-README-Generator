@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from "inquirer";
 import fs from "fs";
+import generateMarkdown from "./utils/generateMarkdown";
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -58,7 +59,8 @@ function init() {
             }
         ])
         .then((response) => {
-            
+            let MarkdownData = generateMarkdown(response);
+            writeToFile("./Generated-README-File/README.md", MarkdownData);
         });
 }
 
