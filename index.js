@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from "inquirer";
 import fs from "fs";
-import generateMarkdown from "./utils/generateMarkdown";
+import generateMarkdown from "./utils/generateMarkdown.js";
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -24,7 +24,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    console.log("Welcome to the README Generator! Please answer the following questions to generate your README file...");
+    console.log("\nWelcome to the README Generator! Please answer the following questions to generate your README file...");
     inquirer
         .prompt([
             {
