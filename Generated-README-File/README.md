@@ -1,5 +1,5 @@
 # test
-  ![License Badge](https://img.shields.io/badge/license-MPL%202.0-black)
+  ![License Badge](https://img.shields.io/badge/license-MIT-blue)
 
   ## Description
   test
@@ -30,5 +30,5 @@
   - Email: test
 
   ## License
-  [This project is licensed under the MPL 2.0 license.](#https://www.mozilla.org/en-US/MPL/2.0/)
+  [This project is licensed under the MIT license.](#https://opensource.org/license/mit)
 
