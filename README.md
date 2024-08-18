@@ -1,5 +1,5 @@
 # README File Generator
-
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
 ## Description
 This project allows a user to quickly generate a new README.md file by entering in information to the prompts from the console.
 The user doesn't have to worry about the syntax or formatting. They just have to provide the relevant
